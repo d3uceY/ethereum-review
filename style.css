@@ -27,8 +27,22 @@
     color: goldenrod;
 }
 
-.attribution a:hover{
+.attribution a,
+.thats-all-folks a:hover{
     color: gold;
+}
+
+.thats-all-folks a{
+    color: goldenrod;
+}
+
+.thats-all-folks{
+    color: white;
+    text-align: center;
+}
+
+.fa-link{
+    color: white;
 }
 
 body{
@@ -73,7 +87,7 @@ body{
     align-items: center;
     opacity: 0;
     transition: all 200ms ease-in-out;
-    border-radius: 5px;
+    border-radius: 5px  ;
 }
 
 .eye-container >*{
